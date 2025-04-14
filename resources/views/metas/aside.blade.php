@@ -1,7 +1,7 @@
 @php use App\Models\Functions; @endphp
 <aside class="main-sidebar sidebar-dark-primary elevation-0">
   <a href="{{ url('.') }}" class="brand-link bg-olive d-flex gap-2 justify-content-center align-items-center py-1">
-    <img src="{{ asset('resources/assets/img/logo.webp') }}" class="p-1 d--none bg-white rounded" width="55">
+    <img src="{{ asset('resources/assets/img/logo.webp') }}" class="p-1 d-none bg-white rounded" width="55">
     <span class="bg-white d-none rounded h-100 p-2 elevation-1">
       <i class="fa-solid fa-fire-flame-curved fa-xl text-olive"></i>
     </span>
@@ -156,7 +156,7 @@
       <ul class="nav nav-pills nav-sidebar flex-column w-100 position-absolute bottom-0 start-0">
         <li class="nav-header text-center">
           <small class="text-white">
-            POWERED BY <i class="fas fa-lg fa-fire-flame-curved text-olive"></i> <a href="mailto:dhoucam@outlook.com" class="fw-bold text-white">WAVEAUS</a>
+            POWERED BY <i class="fas fa-lg fa-fire-flame-curved text-orange"></i> <a href="mailto:director@orangenexa.com" class="fw-bold text-white">Orange Nexa</a>
           </small>
         </li>
       </ul>

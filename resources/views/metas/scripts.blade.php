@@ -1,40 +1,40 @@
 @php use App\Models\Functions; @endphp
 
-<script src="{{ asset('resources/assets/plugins/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/jquery/jquery.min.js') }}"></script>
 
-<script src="{{ asset('resources/assets/bootstrap-5.0.2/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('assets/bootstrap-5.0.2/js/bootstrap.bundle.min.js') }}"></script>
 
-<script src="{{ asset('resources/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
 
-<script src="{{ asset('resources/assets/plugins/jasonday-printThis/printThis.js') }}"></script>
+<script src="{{ asset('assets/plugins/jasonday-printThis/printThis.js') }}"></script>
 
-<script src="{{ asset('resources/assets/plugins/toastr/toastr.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/toastr/toastr.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
 
-<script src="{{ asset('resources/assets/plugins/pace-progress/pace.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/pace-progress/pace.min.js') }}"></script>
 
-<script src="{{ asset('resources/assets/plugins/fontawesome/js/pro.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/inputmask/jquery.inputmask.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/fontawesome/js/pro.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/inputmask/jquery.inputmask.min.js') }}"></script>
 
-<script src="{{ asset('resources/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/select2/js/select2.full.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js') }}"></script>
+<script src="{{ asset('assets/plugins/select2/js/select2.full.min.js') }}"></script>
 
-<script src="{{ asset('resources/assets/plugins/datatables/jquery.dataTables.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/datatables-buttons/js/dataTables.buttons.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/datatables-buttons/js/buttons.bootstrap4.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/jszip/jszip.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/pdfmake/pdfmake.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/pdfmake/vfs_fonts.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/datatables-buttons/js/buttons.html5.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/datatables-buttons/js/buttons.print.min.js') }}"></script>
-<script src="{{ asset('resources/assets/plugins/datatables-buttons/js/buttons.colVis.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/datatables/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/datatables-buttons/js/dataTables.buttons.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/datatables-buttons/js/buttons.bootstrap4.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/jszip/jszip.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/pdfmake/pdfmake.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/pdfmake/vfs_fonts.js') }}"></script>
+<script src="{{ asset('assets/plugins/datatables-buttons/js/buttons.html5.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/datatables-buttons/js/buttons.print.min.js') }}"></script>
+<script src="{{ asset('assets/plugins/datatables-buttons/js/buttons.colVis.min.js') }}"></script>
 
-<script src="{{ asset('resources/assets/js/adminlte.js') }}"></script>
+<script src="{{ asset('assets/js/adminlte.js') }}"></script>
 
-<!-- <script src="{{ asset('resources/assets/js/waveaus.js') }}"></script> -->
+<!-- <script src="{{ asset('assets/js/waveaus.js') }}"></script> -->
 
 <script type="text/javascript">
 $(document).ready(function() {
@@ -124,7 +124,7 @@ $(document).ready(function() {
     lengthChange: false, 
     autoWidth: false,
     language: {
-      url: "{{ asset('resources/assets/js/frTables.js') }}",
+      url: "{{ asset('assets/js/frTables.js') }}",
     },
     buttons: ["excel", "csv", "print"]
   });

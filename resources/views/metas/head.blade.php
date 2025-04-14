@@ -6,25 +6,25 @@
   <title>RH | PORTAL</title>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" async>
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/fontawesome/css/all.min.css') }}" async>
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}" async>
+  <link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome/css/all.min.css') }}" async>
+  <link rel="stylesheet" href="{{ asset('assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}" async>
 
-  <link rel="stylesheet" href="{{ asset('resources/assets/bootstrap-5.0.2/css/bootstrap.min.css') }}" async>
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}" async>
+  <link rel="stylesheet" href="{{ asset('assets/bootstrap-5.0.2/css/bootstrap.min.css') }}" async>
+  <link rel="stylesheet" href="{{ asset('assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}" async>
 
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/sweetalert2/themes/bs4/bootstrap-4.min.css') }}" async>
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/toastr/toastr.min.css') }}" async>
+  <link rel="stylesheet" href="{{ asset('assets/plugins/sweetalert2/themes/bs4/bootstrap-4.min.css') }}" async>
+  <link rel="stylesheet" href="{{ asset('assets/plugins/toastr/toastr.min.css') }}" async>
 
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/pace-progress/themes/black/pace-theme-flat-top.css') }}" async>
+  <link rel="stylesheet" href="{{ asset('assets/plugins/pace-progress/themes/black/pace-theme-flat-top.css') }}" async>
 
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/bootstrap-datepicker/css/datepicker.css') }}" async>
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/select2/css/select2.min.css') }}" async>
+  <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap-datepicker/css/datepicker.css') }}" async>
+  <link rel="stylesheet" href="{{ asset('assets/plugins/select2/css/select2.min.css') }}" async>
 
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/daterangepicker/daterangepicker.css') }}">
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('resources/assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/plugins/daterangepicker/daterangepicker.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') }}">
 
-  <link rel="stylesheet" href="{{ asset('resources/assets/css/adminlte.min.css') }}" async>
+  <link rel="stylesheet" href="{{ asset('assets/css/adminlte.min.css') }}" async>
 
   <style type="text/css">
     .dark-mode .timeline>div>.timeline-item>.timeline-header {

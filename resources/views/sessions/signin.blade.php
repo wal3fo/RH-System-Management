@@ -13,7 +13,7 @@
               <span class="badge badge-light text-olive fw-bold ms-2">BETA</span>
             </small>
           </h5>
-          <img src="{{ asset('resources/assets/img/logo.webp') }}" class="p-1 bg-white elevate-1 rounded" width="60">
+          <img src="{{ asset('resources/assets/img/logo.webp') }}" class="p-1 bg-white elevate-1 rounded d-none" width="60">
         </div>
         <div class="card-body">
           <form class="row g-3">
